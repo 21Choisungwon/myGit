@@ -120,11 +120,20 @@ git과 github 연결하기
 
         push 하여 commit된 상태를 github에 업로드하기
 
+    push 사용법
+    git push 원격저장소별칭 브랜치 이름
+        해당원격저장소 해당브런치에다가 local 저장소 commit 상태를 업로드
+
+    -u 옵션 (upstream(연결)으로 만드는 옵션)
+        git push -u 원격저장소 별칭 브랜치 이름 
+            현재 내가 작업하고있는 로컬 저장소의 로컬 브랜치가 해당 원격저장소브랜치와 
+            연결이된다 따라서 이 이후로는
+                git push
+            만 입력 하더라도 알아서 연결된 원격저장소 브랜치에 업로드가 된다.
+            branch=폴더 라고 생각
 
 *** 꼭 기억하기
 git add *
 git commit -m "메시지"
 git commit -am "메시지"
 
-
-완전히 수정한것을 확인하기위한 메시지
