@@ -125,3 +125,6 @@ git과 github 연결하기
 git add *
 git commit -m "메시지"
 git commit -am "메시지"
+
+
+완전히 수정한것을 확인하기위한 메시지
