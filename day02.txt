@@ -19,7 +19,7 @@ git으로 버전관리하기
         Window 사용자 : git bash here
             원하는 폴더로 들어가서 마우스 우클릭
              git bash here 클릭
-
+sdf
 
         Terminal, cmd, git bash 사용이 완료가 되면
         잘 종료를 시켜주야 한다. --> 오류발생 줄이기 위해
